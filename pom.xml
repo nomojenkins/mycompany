@@ -24,7 +24,7 @@
     <name>MyCompany</name>
 
     <scm>
-        <developerConnection>scm:git:ssh://git@github.com/lsfusion-solutions/mycompany.git</developerConnection>
+        <developerConnection>scm:git:ssh://git@github.com/nomojenkins/mycompany.git</developerConnection>
       <tag>HEAD</tag>
   </scm>
 
