@@ -6,14 +6,14 @@
         <repository>
             <id>lsfusion</id>
             <name>lsFusion Public Repository</name>
-            <url>https://repo.lsfusion.org</url>
+            <url>https://repo.lsfusion.org/nexus/repository/publictest</url>
         </repository>
     </repositories>
 
     <parent>
         <groupId>lsfusion.platform.build</groupId>
         <artifactId>logics</artifactId>
-        <version>6.2</version>
+        <version>6.2-SNAPSHOT</version>
         <relativePath>../platform/build/logics/pom.xml</relativePath>
     </parent>
 
@@ -51,7 +51,7 @@
         <profile>
             <id>assemble</id>
             <properties>
-                <platform.assemble.version>6.2</platform.assemble.version>
+                <platform.assemble.version>6.2-SNAPSHOT</platform.assemble.version>
             </properties>
             <dependencies>
                 <dependency>
